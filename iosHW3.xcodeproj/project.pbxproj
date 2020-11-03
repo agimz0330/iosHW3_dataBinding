@@ -7,19 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5321D4B025502B7D000C87F9 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5321D4AF25502B7D000C87F9 /* Theme.swift */; };
+		5321D4B725513CCB000C87F9 /* Oliver Blush Free.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5321D4B625513CCB000C87F9 /* Oliver Blush Free.ttf */; };
 		550BE94F254947EC006B8767 /* iosHW3App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550BE94E254947EC006B8767 /* iosHW3App.swift */; };
-		550BE951254947EC006B8767 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550BE950254947EC006B8767 /* ContentView.swift */; };
 		550BE953254947EE006B8767 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550BE952254947EE006B8767 /* Assets.xcassets */; };
 		550BE956254947EE006B8767 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 550BE955254947EE006B8767 /* Preview Assets.xcassets */; };
+		550BE95F25494D1F006B8767 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 550BE95E25494D1F006B8767 /* CardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5321D4AF25502B7D000C87F9 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		5321D4B625513CCB000C87F9 /* Oliver Blush Free.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Oliver Blush Free.ttf"; sourceTree = "<group>"; };
 		550BE94B254947EC006B8767 /* iosHW3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iosHW3.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		550BE94E254947EC006B8767 /* iosHW3App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iosHW3App.swift; sourceTree = "<group>"; };
-		550BE950254947EC006B8767 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		550BE952254947EE006B8767 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		550BE955254947EE006B8767 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		550BE957254947EE006B8767 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		550BE95E25494D1F006B8767 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +56,13 @@
 		550BE94D254947EC006B8767 /* iosHW3 */ = {
 			isa = PBXGroup;
 			children = (
+				5321D4B625513CCB000C87F9 /* Oliver Blush Free.ttf */,
 				550BE94E254947EC006B8767 /* iosHW3App.swift */,
-				550BE950254947EC006B8767 /* ContentView.swift */,
+				550BE95E25494D1F006B8767 /* CardView.swift */,
 				550BE952254947EE006B8767 /* Assets.xcassets */,
 				550BE957254947EE006B8767 /* Info.plist */,
 				550BE954254947EE006B8767 /* Preview Content */,
+				5321D4AF25502B7D000C87F9 /* Theme.swift */,
 			);
 			path = iosHW3;
 			sourceTree = "<group>";
@@ -128,6 +134,7 @@
 			files = (
 				550BE956254947EE006B8767 /* Preview Assets.xcassets in Resources */,
 				550BE953254947EE006B8767 /* Assets.xcassets in Resources */,
+				5321D4B725513CCB000C87F9 /* Oliver Blush Free.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,7 +145,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				550BE951254947EC006B8767 /* ContentView.swift in Sources */,
+				5321D4B025502B7D000C87F9 /* Theme.swift in Sources */,
+				550BE95F25494D1F006B8767 /* CardView.swift in Sources */,
 				550BE94F254947EC006B8767 /* iosHW3App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
